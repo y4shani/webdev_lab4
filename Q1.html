@@ -1,0 +1,25 @@
+<! -- Write an HTML with JavaScript statements to change the content of the paragraph to "Hello there! -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab4/Q1</title>
+</head>
+<body>
+
+<div id="myElement">
+  <p id="myParagraph">Welcome to my website!</p>
+</div>
+
+<button onclick="changeContent()">Click Me</button>
+
+<script>
+  function changeContent() {
+    document.getElementById("myParagraph").textContent = "Hello there!";
+  }
+</script>
+
+</body>
+</html>
